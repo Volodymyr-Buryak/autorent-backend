@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: car-rental
+
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+    open-in-view: false
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  flyway:
+    locations:
+      - classpath:db/migration/fleet
+      - classpath:db/migration/booking
