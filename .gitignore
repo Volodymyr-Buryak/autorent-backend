@@ -13,7 +13,7 @@ buildNumber.properties
 .mvn/timing.properties
 # Keep the wrapper jar if you use Maven Wrapper, but ignore everything else
 !.mvn/wrapper/maven-wrapper.jar
-docker-compose.yaml
+*.yaml
 
 # =========================================================================
 # IntelliJ IDEA
